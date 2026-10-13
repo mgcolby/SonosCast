@@ -55,7 +55,7 @@ class WavCodec:
     """Raw 16-bit PCM in a WAV wrapper with a 'huge file' header. No encoder delay."""
 
     name = "wav"
-    label = "Low delay (WAV, ~0.5 s)"
+    label = "Low delay (WAV)"
     path = "/stream.wav"
     content_type = "audio/wav"
     uri_scheme = "http"
