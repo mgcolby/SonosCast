@@ -1,0 +1,15 @@
+# virtualenv
+.venv/
+
+# python
+__pycache__/
+*.pyc
+
+# PyInstaller output
+build/
+build_out/
+dist/
+*.spec
+
+# runtime
+sonoscast.log
